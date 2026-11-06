@@ -8,7 +8,7 @@ cask "cursortint" do
   desc "Show Terminal input mode through the cursor color"
   homepage "https://github.com/fixdot/cursortint"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "CursorTint.app"
 end
